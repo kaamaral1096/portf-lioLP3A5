@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "produtor-consumidor",
         "tarefa3-programacao-concorrente",
-        "tarefa2-produtor-consumidor"
+        "tarefa2-produtor-consumidor",
+        "tarefa5-optionals-and-exceptions"
     ]
 }
