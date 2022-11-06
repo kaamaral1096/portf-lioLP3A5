@@ -1,5 +1,6 @@
-//código baseado em explicações do blog https://www.blogcyberini.com/
+//Código baseado em explicações do blog https://www.blogcyberini.com/
 
+//O ForkJoinPool é um pool de threads para tarefas Fork-Join, que gerencia a execução das mesmas. É subclasse de AbstractExecutorService.
 import java.util.concurrent.ForkJoinPool;
 
 public class QuickSortTest {

@@ -33,8 +33,6 @@ public class QuicksortForkJoin  extends RecursiveAction {
         int indiceAleatorio = RANDOM_NUMBER_GENERATE.nextInt(fim - inicio + 1) + inicio;
         //coloca o pivô aleatório no fim para aplicar a partição de Cormen
         swap(A, indiceAleatorio, fim);
-
-        //*******************ALGORITMO DE PARTIÇÃO DE CORMEN*********************
         //o pivo é o elemento final
         int pivo = A[fim];
         int i = inicio - 1;

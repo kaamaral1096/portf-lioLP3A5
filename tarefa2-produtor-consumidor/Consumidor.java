@@ -4,7 +4,7 @@ public class Consumidor extends Thread {
     Consumidor(Numero numero) {
         this.numero = numero;
     }
-
+    
     @Override
     public void run() {
         for (int k = 0; k < 10; k++) {
