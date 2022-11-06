@@ -2,24 +2,26 @@ import java.util.Optional;
 
 public class Testes {
     public static void main(String[] args) {
-        DemoOptional demo1 = new DemoOptional();
-        demo1.demoOfNullable();
-        demo1.demoOf();
-        demo1.demoFilter();
+        CreateOptional demo1 = new CreateOptional();
+        demo1.OfNullableMethod();
+        demo1.OfMethod();
+        demo1.FilterMethod();
 
         /*
-            Escreva uma nova classe de exceção que utilize dois construtores, o primeiro com uma mensagem de erro e o segundo que aceite também um Throwable com a causa.
+            Escreva uma nova classe de exceção que utilize dois construtores:
+            1) O primeiro com uma mensagem de erro
+            2) o segundo que aceite também um Throwable com a causa.
             Faça um exemplo no qual ao capturar uma exceção, gere uma nova exceção passando a exceção original como causa.
             Faça uma demonstração do funcionamento do método getCause da nova exceção que tenha criado.
         */
         try {
-            throw new DemoException("Teste Exception 1");
-        } catch (DemoException e) {
+            throw new CreateException("Teste Exception 1");
+        } catch (CreateException e) {
             System.out.println(e.getMessage());
 
             try{
-                throw new DemoException("Teste Exception 2", e);
-            } catch (DemoException err){
+                throw new CreateException("Teste Exception 2", e);
+            } catch (CreateException err){
                 System.out.println(err.getMessage() + " " + err.getCause().getMessage());
             }
         }
@@ -30,7 +32,7 @@ public class Testes {
         }
 
         catch (NullPointerException e){
-            System.out.println("Exemplo de multiplos blocos catch: "+e);
+            System.out.println("Exemplo de multiplos blocos catch: " + e);
         }
 
         catch (Exception e){
@@ -43,7 +45,7 @@ public class Testes {
         }
 
         catch (NullPointerException|ArithmeticException e){
-            System.out.println("Exemplo de bloco catch com multiplas excessões: "+e);
+            System.out.println("Exemplo de bloco catch com multiplas excessões: " + e);
         }
     }
 }

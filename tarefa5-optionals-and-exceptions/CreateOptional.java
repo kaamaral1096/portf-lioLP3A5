@@ -1,10 +1,10 @@
 import java.util.Optional;
 import java.lang.ArithmeticException;
 
-public class DemoOptional {
+public class CreateOptional {
     private Optional<Integer> opt;
 
-    public void demoOfNullable() {
+    public void OfNullableMethod() {
         Integer number = null;
         Optional<Integer> opt = Optional.ofNullable(number);
 
@@ -12,7 +12,7 @@ public class DemoOptional {
         System.out.println("Demo ofNullable com orElseGet: " + opt.orElseGet(() -> 0));
     }
 
-    public void demoOf() {
+    public void OfMethod() {
         Optional<Integer> opt = Optional.of(1);
 
         System.out.println("Demo of: " + opt);
@@ -24,7 +24,7 @@ public class DemoOptional {
                         ArithmeticException::new));
     }
 
-    public void demoFilter() {
+    public void FilterMethod() {
         Optional<Integer> op
                 = Optional.of(9456);
 
