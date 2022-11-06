@@ -1,3 +1,5 @@
+//Código baseado na vídeo aula: https://www.youtube.com/watch?v=uBkUpRI0fXU
+
 public class Teste {
 	public static void main(String[] args) {
 		Numero n = new Numero(0);
