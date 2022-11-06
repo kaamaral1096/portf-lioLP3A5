@@ -12,9 +12,8 @@ public class Produtor extends Thread {
 				try {
 					sleep(100);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}			
 	}
-
+}
