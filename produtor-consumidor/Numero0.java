@@ -1,4 +1,3 @@
-
 public class Numero0 {
 
 	private int numero;

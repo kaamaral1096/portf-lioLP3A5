@@ -1,4 +1,3 @@
-
 public class Produtor extends Thread {
 	Numero numero;
 	
@@ -19,4 +18,3 @@ public class Produtor extends Thread {
 			}			
 	}
 
-}

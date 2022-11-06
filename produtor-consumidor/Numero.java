@@ -1,4 +1,3 @@
-
 public class Numero {
     private int numero;
     private boolean disponivel;
