@@ -8,14 +8,14 @@ public class CreateOptional {
         Integer number = null;
         Optional<Integer> opt = Optional.ofNullable(number);
 
-        System.out.println("Demo ofNullable com orElse: " + opt.orElse(0));
-        System.out.println("Demo ofNullable com orElseGet: " + opt.orElseGet(() -> 0));
+        System.out.println("Demonstração do método Nullable com orElse: " + opt.orElse(0)  + "\n");
+        System.out.println("Demonstração do método ofNullable com orElseGet: " + opt.orElseGet(() -> 0) + "\n");
     }
 
     public void OfMethod() {
         Optional<Integer> opt = Optional.of(1);
 
-        System.out.println("Demo of: " + opt  + "\n");
+        System.out.println("Demonstração de : " + opt  + "\n");
 
         System.out.println(
                 "Valor de do método orElseThrow("
@@ -29,7 +29,7 @@ public class CreateOptional {
                 = Optional.of(9456);
 
         System.out.println("Optional: "
-                + op);
+                + op  + "\n");
         System.out.println("Filtered value "
                 + "for odd or even: "
                 + op

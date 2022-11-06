@@ -32,11 +32,11 @@ public class Testes {
         }
 
         catch (NullPointerException e){
-            System.out.println("Exemplo de multiplos blocos catch: " + e);
+            System.out.println("Exemplo de multiplos blocos catch: " + e  + "\n");
         }
 
         catch (Exception e){
-            System.out.println("Exemplo de multiplos blocos catch: " + e);
+            System.out.println("Exemplo de multiplos blocos catch: " + e  + "\n");
         }
 
         //Faça um exemplo tratando múltiplas exceções em um mesmo bloco catch, usando o operador "|".
@@ -45,7 +45,7 @@ public class Testes {
         }
 
         catch (NullPointerException|ArithmeticException e){
-            System.out.println("Exemplo de bloco catch com multiplas exceções: " + e);
+            System.out.println("Exemplo de bloco catch com multiplas exceções: " + e  + "\n");
         }
     }
 }
