@@ -2,17 +2,16 @@
 
 public class Teste {
 	public static void main(String[] args) {
-		Numero n = new Numero(0);
-		Produtor p = new Produtor(n);
-		Consumidor c = new Consumidor(n);
-		Consumidor c1 = new Consumidor(n);
-		Consumidor c2 = new Consumidor(n);
-		
+		Numero numero = new Numero(0);
+		Produtor produtor = new Produtor(numero);
+		Consumidor consumidor = new Consumidor(numero);
+		Consumidor consumidor1 = new Consumidor(numero);
+		Consumidor consumidor2 = new Consumidor(numero);
 				
-		p.start();
-		c.start();
-		c1.start();
-		c2.start();
+		produtor.start();
+		consumidor.start();
+		consumidor1.start();
+		consumidor2.start();
 
 	}
 
