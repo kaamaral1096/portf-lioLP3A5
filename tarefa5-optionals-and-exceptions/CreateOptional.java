@@ -15,13 +15,13 @@ public class CreateOptional {
     public void OfMethod() {
         Optional<Integer> opt = Optional.of(1);
 
-        System.out.println("Demo of: " + opt);
+        System.out.println("Demo of: " + opt  + "\n");
 
         System.out.println(
-                "Value by orElseThrow("
-                        + "ArithmeticException::new) method: "
+                "Valor de do método orElseThrow("
+                        + "ArithmeticException::new): "
                         + opt.orElseThrow(
-                        ArithmeticException::new));
+                        ArithmeticException::new) + "\n");
     }
 
     public void FilterMethod() {
@@ -34,6 +34,6 @@ public class CreateOptional {
                 + "for odd or even: "
                 + op
                 .filter(num
-                        -> num % 2 == 0));
+                        -> num % 2 == 0)  + "\n");
     }
 }

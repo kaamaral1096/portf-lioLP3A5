@@ -15,7 +15,7 @@ public class Testes {
             Faça uma demonstração do funcionamento do método getCause da nova exceção que tenha criado.
         */
         try {
-            throw new CreateException("Teste Exception 1");
+            throw new CreateException("Teste Exception 1"  + "\n");
         } catch (CreateException e) {
             System.out.println(e.getMessage());
 
@@ -45,7 +45,7 @@ public class Testes {
         }
 
         catch (NullPointerException|ArithmeticException e){
-            System.out.println("Exemplo de bloco catch com multiplas excessões: " + e);
+            System.out.println("Exemplo de bloco catch com multiplas exceções: " + e);
         }
     }
 }
