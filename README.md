@@ -16,7 +16,7 @@
     </li>
          <li>
       <a href="https://github.com/kaamaral1096/portfolioLP3A5/tree/main/tarefa4-programacao-funcional">
-        Tarefa 4: Programaç.
+        Tarefa 4: Programação Funcional.
       </a>
     </li>
     <li>
