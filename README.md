@@ -14,11 +14,17 @@
         Tarefa 3: Programação Concorrente com QuickSort.
       </a>
     </li>
+         <li>
+      <a href="https://github.com/kaamaral1096/portfolioLP3A5/tree/main/tarefa4-programacao-funcional">
+        Tarefa 4: Programaç.
+      </a>
+    </li>
     <li>
       <a href="https://github.com/kaamaral1096/portfolioLP3A5/tree/main/tarefa5-optionals-and-exceptions">
         Tarefa 5: Optionals and Exceptions.
       </a>
     </li>
+
   </ul>
-</div>h
+</div>
 
